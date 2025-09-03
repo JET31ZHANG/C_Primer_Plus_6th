@@ -46,9 +46,9 @@ void calc(double salary, double level);
 int main(void)
 {
 
-    int type;       // 税金等级
-    double salary;   // 应纳税收入
-    double pay;      // 税金标准
+    int type;           // 税金等级
+    double salary;      // 应纳税收入
+    double pay;         // 税金标准
     print_menu();
     while((scanf("%d", &type)) == 1 && type != 5)
     {
