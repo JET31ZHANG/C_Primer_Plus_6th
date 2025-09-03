@@ -1,10 +1,10 @@
 /* Ch03_Exercises_08.c --  */
 
 /*
-1品脱等于2杯
-1杯等于8盎司
-1盎司等于2大汤勺
-1大汤勺等于3茶勺
+    1品脱等于2杯
+    1杯等于8盎司
+    1盎司等于2大汤勺
+    1大汤勺等于3茶勺
 */
 
 /* 
@@ -43,6 +43,6 @@ int main(void)
 }
 
 /* Output 
-Enter how many cup: 10
-10.0 cup equals 5.0 pint, 80.0 ounce, 160.0 spoon, 480.0 tea_spoon.
+    Enter how many cup: 10
+    10.0 cup equals 5.0 pint, 80.0 ounce, 160.0 spoon, 480.0 tea_spoon.
 */

@@ -21,10 +21,9 @@ int main(void)
     return 0;
 }
 
-/*
-* Ouuput:
-Enter a floating-point value:64.25
-fixed-point notation: 64.250000
-exponential notation: 6.425000e+01
-p notation: 0x1.0100000000000p+6
+/* Ouuput:
+    Enter a floating-point value:64.25
+    fixed-point notation: 64.250000
+    exponential notation: 6.425000e+01
+    p notation: 0x1.0100000000000p+6
 */

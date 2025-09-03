@@ -24,6 +24,6 @@ int main(void)
 }
 
 /* Output
-Enter your height in inch: 69
-69.000000 inches of height is 175.26 cm.
+    Enter your height in inch: 69
+    69.000000 inches of height is 175.26 cm.
 */

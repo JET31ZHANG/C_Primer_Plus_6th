@@ -1,7 +1,8 @@
 /* Ch03_Exercises_01.c -- 整数上溢、浮点数上溢、浮点数下溢 */
 
 /*
-通过试验（即编写带有此类问题的程序）观察系统如何处理整数上溢、浮点数上溢、浮点数下溢的情况。
+    通过试验（即编写带有此类问题的程序）观察系统如何处理整数上溢、
+    浮点数上溢、浮点数下溢的情况。
 */
 
 #include <stdio.h>
@@ -39,9 +40,9 @@ int main(void)
 }
 
 /* Output
-The big int data is 2147483647.
-The big float data is 339999995214436424907732413799364296704.000000.
-The big float data is 3.333333.
-The Max float data is 340282346638528859811704183484516925440.000000.
-The Max int data is 2147483647.
+    The big int data is 2147483647.
+    The big float data is 339999995214436424907732413799364296704.000000.
+    The big float data is 3.333333.
+    The Max float data is 340282346638528859811704183484516925440.000000.
+    The Max int data is 2147483647.
 */

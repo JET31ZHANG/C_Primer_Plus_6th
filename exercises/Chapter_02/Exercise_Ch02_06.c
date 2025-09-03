@@ -20,7 +20,7 @@ int main(void)
 }
 
 /* Output
-The Variable toes = 10
-double toes = 20
-toes squared = 100
+    The Variable toes = 10
+    double toes = 20
+    toes squared = 100
 */

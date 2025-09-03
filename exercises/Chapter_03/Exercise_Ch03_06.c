@@ -26,6 +26,6 @@ int main(void)
 }
 
 /* Output
-Enter the number of quarts of water: 5
-5.000000 quarts of water contain 1.583333e+26 molecules.
+    Enter the number of quarts of water: 5
+    5.000000 quarts of water contain 1.583333e+26 molecules.
 */

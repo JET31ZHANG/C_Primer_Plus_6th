@@ -48,7 +48,7 @@ int ic(void)
 }
 
 /* Output
-Brazil, Russia, India, China
-India, China
-Brazil, Russia
+    Brazil, Russia, India, China
+    India, China
+    Brazil, Russia
 */

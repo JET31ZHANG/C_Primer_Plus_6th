@@ -45,8 +45,8 @@ int deny(void)
 }
 
 /* Output
-For he's a jolly good fellow!
-For he's a jolly good fellow!
-For he's a jolly good fellow!
-Which nobody can deny!
+    For he's a jolly good fellow!
+    For he's a jolly good fellow!
+    For he's a jolly good fellow!
+    Which nobody can deny!
 */

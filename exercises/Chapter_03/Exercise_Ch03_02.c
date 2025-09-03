@@ -18,6 +18,6 @@ int main(void)
 }
 
 /* Output
-Please Enter an ASCII code: 66
-Your input value is 66, and char is B.
+    Please Enter an ASCII code: 66
+    Your input value is 66, and char is B.
 */

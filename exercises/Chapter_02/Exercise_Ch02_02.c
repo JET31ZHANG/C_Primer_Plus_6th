@@ -15,6 +15,6 @@ int main(void)
 }
 
 /* Output
-Mark Rowswell
-2752 ST. JOHN'S SIDEROAD; NEWMARKET ONTARIO; L3Y 4W1; CANADA
+    Mark Rowswell
+    2752 ST. JOHN'S SIDEROAD; NEWMARKET ONTARIO; L3Y 4W1; CANADA
 */

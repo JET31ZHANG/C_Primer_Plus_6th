@@ -5,11 +5,11 @@
     再调用一次 printf() 函数，把你的名和姓分别打印在两行。
     然后，再调用两次 printf() 函数，把你的名和姓打印在一行。输出应如下所示：
 
-``````
-Gustav Mahler
-Gustav
-Mahler
-Gustav Mahler
+    ``````
+    Gustav Mahler
+    Gustav
+    Mahler
+    Gustav Mahler
 */
 
 #include <stdio.h>
@@ -28,8 +28,8 @@ int main(void)
 }
 
 /* Output:
-Gustav Mahler
-Gustav
-Mahler
-Gustav Mahler
+    Gustav Mahler
+    Gustav
+    Mahler
+    Gustav Mahler
 */

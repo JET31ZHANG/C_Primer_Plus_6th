@@ -1,6 +1,9 @@
 /* Exercise_Ch02_03.c --  */
 
-/* 编写一个程序，把你的年龄转换成天数，并显示年龄和天数。这里不用考虑闰年的问题。 */
+/* 
+    编写一个程序，把你的年龄转换成天数，
+    并显示年龄和天数。这里不用考虑闰年的问题。 
+*/
 #include <stdio.h>
 
 int main(void)
@@ -17,5 +20,5 @@ int main(void)
 }
 
 /* Output
-Your age is 36, and it is 13140 days.
+    Your age is 36, and it is 13140 days.
 */

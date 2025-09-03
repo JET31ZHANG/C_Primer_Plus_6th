@@ -23,7 +23,7 @@ int main(void)
 }
 
 /* Output
-Enter how many years old you are: 16
-You are: 16.0 years old.
-And you are 5.049600e+08 seconds old, too.
+    Enter how many years old you are: 16
+    You are: 16.0 years old.
+    And you are 5.049600e+08 seconds old, too.
 */

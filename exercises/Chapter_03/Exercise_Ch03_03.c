@@ -18,6 +18,6 @@ int main(void)
 }
 
 /* Output 
-Startled by the sudden sound, Sally shouted,
-"By the Great Pumpkin, what was that!"
+    Startled by the sudden sound, Sally shouted,
+    "By the Great Pumpkin, what was that!"
 */
