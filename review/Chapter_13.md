@@ -1,0 +1,69 @@
+1. 下面的程序有什么问题？
+```c
+int main(void)
+{
+    int * fp;
+    int k;
+    fp = fopen("gelatin");
+    for (k = 0; k < 30; k++>) 
+        fputs(fp, "Nanette eats gelatin.");
+    fclose("gelatin");
+
+    return 0;
+}
+```
+2. 下面的程序将完成什么任务？（假设在命令行环境中运行。）
+```c
+#include <stdio.h>
+#include <stdlib.h>
+#include <ctype.h>
+
+int main(int argc, char *argv[])
+{
+    int ch;
+    FILE *fp;
+    if (argc < 2)
+        exit(EXIT_FAILURE);
+    if ((fp = fopen(argv[1], "r")) == NULL)
+        exit(EXIT_FAILURE);
+    while ((ch = getc(fp)) != EOF)
+        if (isdigit(ch))
+            putchar(ch);
+    fclose(fp);
+
+    return 0;
+}
+```
+
+3. 假设程序中有下列语句。
+```c
+#include <stdio.h>
+FILE * fp1, * fp2;
+char ch;
+fp1 = fopen("terky", "r");
+fp2 = fopen("jerky", "w");
+```
+另外，假设成功打开了两个文件。补全以下函数调用中缺少的函数：
+a. `ch = getc();`
+b. `fprintf(, "%c\n", );`
+c. `putc( , );`
+d. `fclose(); /* 关闭 terky 文件 */`
+
+4. 编写一个文件，不接受任何命令行参数或接受一个命令行参数。如果有一个参数，将其解释为文件名；如果没有参数，使用标准输入（stdin）作为输入。假设输入完全是浮点数。该程序要计算和报告输入数字的算术平均值。
+
+5. 编写一个程序，用于接受两个命令行参数。第1个参数是字符，第2个参数是文件名。要求该程序只打印文件中包含给定字符的那些行。
+
+6. 二进制文件和文本文件有何区别？二进制流和文本流有何区别？
+
+7. a. 分别用 fprintf() 和 fwrite() 存储 8238201 有何区别？
+   b. 分别用 putc() 和 fwrite() 存储字符 S 有何区别？
+
+8. 下面语句的区别是什么？
+```c
+printf("Hello, %s\n", name);
+printf(stdout, "Hello, %s\n", name);
+printf(stderr, "Hello, %s\n", name);
+```
+
+9. 以 "a+"、"r+" 和 "w+" 模式打开的文件都是可读写的。哪种模式更适合用来更改文件中已有的内容？
+

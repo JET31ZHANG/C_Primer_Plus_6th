@@ -1,0 +1,79 @@
+1. 再次运行程序清单 4.1，但是在要求输入名时，请输入名和姓（根据英文书写习惯，名和姓中间有一个空格），看看程序会发生什么情况。为什么？
+
+2. 假设下列示例都是完整程序的一部分，他们的打印结果分别是什么？
+a. printf("He sold the planning for $%2.2f.\n", 2.345e2);
+b. printf("%c%c%c\n", 'H', 105, '\41');
+c. #define Q "His Hamlet was funny without being vulgar."
+    printf("%s\nhas %d characters,\n", Q, strlen(Q));
+d. printf("Is %2.2e the same as %2.2f?\n", 1201.0, 1201.0);
+
+3. 在复习题 2 的 c 选项中，要输出包含双引号的字符串 Q，应如何修改？
+
+4. 找出下面程序中的错误。
+```c
+#define B booboo
+#define X 10
+main(int) {
+    int age;
+    char name;
+    printf("Please enter your first name.");
+    scanf("%s", name);
+    printf("All right, %c, what's your age?\n", name);
+    scanf("%f", age);
+    xp = age + X;
+    printf("That's a %s! You must be at least %d.\n", B, xp);
+    return 0;
+}
+```
+
+5. 假设一个程序的开头时这样的。
+```c
+#define BOOK "War and Peace"
+int main(void) {
+    float coast = 12.99;
+    float percent = 80.0;
+```
+请构造一个使用 BOOK、coast 和 percent 的 printf() 语句，打印以下内容。
+This copy of "War and Peace" sells for $12.99.
+That is 80% of list.
+
+6. 打印下列各项内容要分别使用什么转换说明符？
+a. 一个字段宽度与位数相同的十进制整数；
+b. 一个形如 8A、字段宽度为 4 的十六进制整数；
+c. 一个形如 232.346、字段宽度为 10 的浮点数；
+d. 一个形如 2.33e+002、字段宽度为 12 的浮点数；
+e. 一个字段宽度为 30、左对齐的字符串。
+
+7. 打印下面的内容分别使用什么转换说明符？
+a. 字段宽度为 15 的 unsigned long 类型整数；
+b. 一个形如 0x8a、字段宽度为 4 的十六进制整数；
+c. 一个形如 2.33E+02、字段宽度为 12、左对齐的浮点数；
+d. 一个形如 +232.346、字段宽度为 10 的浮点数；
+e. 一个字段宽度为 8 的字符串的前 8 个字符。
+
+8. 打印下面各项内容要分别使用什么样的转换说明符？
+a. 一个字段宽度为6、最少有 4 位数字的十进制数；
+b. 一个在参数列表中给定字段宽度的八进制整数；
+c. 一个字段宽度为 2 的字符；
+d. 一个形如 +3.13、字段宽度等于数字中字符数的浮点数；
+e. 一个字段宽度为 7、左对齐的字符串中的前 5 个字符。
+
+9. 分别写出读取下列各输入行的 scanf() 语句，并声明语句中用到的变量和数组。
+a. 101;
+b. 22.32 8.34E-09;
+c. linguini;
+d. catch 22;
+e. catch 22（但是跳过 catch）。
+
+10. 什么是空白？
+
+11. 下面的语句中有什么问题？如何修正？
+```c
+printf("The double type is %z bytes..\n", sizeof(double));
+```
+
+12. 假设要在程序中用圆括号代替花括号，以下方法是否可行？
+```c
+#define ( {
+#define ) }
+```
