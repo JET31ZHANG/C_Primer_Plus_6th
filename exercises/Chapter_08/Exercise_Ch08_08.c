@@ -6,40 +6,44 @@
  *  该程序只接受菜单提供的选项。程序使用float类型的变量存储用户输入的数字，
  *  如果用户输入失败，则允许再次输入。进行除法运算时，如果用户输入0作为第2个数（除数），
  *  程序应提示用户重新输入一个新值。该程序的一个运行示例如下：
-*****************************************************************
-Enter the operation of your choice:
-a. add                            s. subtract
-m. multiply                       d. divide
-q) quit
-*****************************************************************
-a
-Enter first number:22.4
-Enter second number:one
-one is not an number.
-Please enter an number, such as 2.5, -1.78E8, or 3:1
-22.4 + 1 = 23.4
-*****************************************************************
-Enter the operation of your choice:
-a. add                            s. subtract
-m. multiply                       d. divide
-q) quit
-*****************************************************************
-d
-Enter first number:18.4
-Enter second number:0
-Enter a number other than 0:0.2
-18.4 / 0.2 = 92
-*****************************************************************
-Enter the operation of your choice:
-a. add                            s. subtract
-m. multiply                       d. divide
-q) quit
-*****************************************************************
-q
-Bye.
-*/
+ *  *****************************************************************
+ *  Enter the operation of your choice:
+ *  a. add                            s. subtract
+ *  m. multiply                       d. divide
+ *  q) quit
+ *  *****************************************************************
+ *  a
+ *  Enter first number:22.4
+ *  Enter second number:one
+ *  one is not an number.
+ *  Please enter an number, such as 2.5, -1.78E8, or 3:1
+ *  22.4 + 1 = 23.4
+ *  *****************************************************************
+ *  Enter the operation of your choice:
+ *  a. add                            s. subtract
+ *  m. multiply                       d. divide
+ *  q) quit
+ *  *****************************************************************
+ *  d
+ *  Enter first number:18.4
+ *  Enter second number:0
+ *  Enter a number other than 0:0.2
+ *  18.4 / 0.2 = 92
+ *  *****************************************************************
+ *  Enter the operation of your choice:
+ *  a. add                            s. subtract
+ *  m. multiply                       d. divide
+ *  q) quit
+ *  *****************************************************************
+ *  q
+ *  Bye.
+ * */
 
 /*
-
-*/
+ *  重点：处理标准输入中混合的数值类型和字符类型。
+ *  依据题目要求：对标准输入数据的处理过程分两部分。
+ *  1. 用户对菜单的选择，这部分要求用户输入字符类型数据。
+ *  2. 运算数的输入部分，运算数据需要接受用户输入的浮点型数据。
+ *  在两部分输入数据的处理过程中，需要关注数据缓冲区中空白字符的处理。
+ * */
 
